@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fashion Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        
+        .info {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .info h2 {
+            margin-top: 0;
+        }
+        
+        .info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fashion Website</h1>
+    </header>
+    <div class="container">
+        <div class="dropdown">
+            <button>Dropdown</button>
+            <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+            </div>
+        </div>
+        <div class="info">
+            <h2>Product Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, id lacinia nunc nunc id nunc. Sed auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, id lacinia nunc nunc id nunc.</p>
+            <p>Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, id lacinia nunc nunc id nunc. Sed auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, id lacinia nunc nunc id nunc.</p>
+        </div>
+    </div>
+    <script>
+        // JavaScript code can be embedded here
+    </script>
+</body>
+</html>
